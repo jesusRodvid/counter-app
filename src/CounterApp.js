@@ -6,26 +6,22 @@ const CounterApp = ({ value = 10}) => {
     
     const [counter, setCounter] = useState(value);
 
-    //console.log(nombre, setNombre);
     const handledAdd = () =>  { 
         
         setCounter(counter +1)
 
-        //setCounter ( (c) => c +1 );
     }
 
     const handledReset = () =>  { 
         
         setCounter(value)
 
-        //setCounter ( (c) => c +1 );
     }
 
     const handledSubstract = () =>  { 
         
         setCounter(counter -1)
 
-        //setCounter ( (c) => c +1 );
     }
     
     return(
